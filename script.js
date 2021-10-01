@@ -42,10 +42,10 @@ $(".rowBtn").on("click", function() {
 
 $("#9").children("input").val(localStorage.getItem("9"));
 $("#10").children("input").val(localStorage.getItem("10"));
-$("#11").children("input").val(localStorage.getItem("11"));
-$("#12").children("input").val(localStorage.getItem("12"));
-$("#13").children("input").val(localStorage.getItem("13"));
-$("#14").children("input").val(localStorage.getItem("14"));
-$("#15").children("input").val(localStorage.getItem("15"));
-$("#16").children("input").val(localStorage.getItem("16"));
-$("#17").children("input").val(localStorage.getItem("17"));
+$("#11am").children("input").val(localStorage.getItem("11am"));
+$("#12pm").children("input").val(localStorage.getItem("12pm"));
+$("#1pm").children("input").val(localStorage.getItem("1pm"));
+$("#2pm").children("input").val(localStorage.getItem("2pm"));
+$("#3pm").children("input").val(localStorage.getItem("3pm"));
+$("#4pm").children("input").val(localStorage.getItem("4pm"));
+$("#5pm").children("input").val(localStorage.getItem("5pm"));
