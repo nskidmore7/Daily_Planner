@@ -40,8 +40,8 @@ $(".rowBtn").on("click", function() {
     console.log(timeOfday, textContent);
 });
 
-$("#9").children("input").val(localStorage.getItem("9"));
-$("#10").children("input").val(localStorage.getItem("10"));
+$("#9am").children("input").val(localStorage.getItem("9am"));
+$("#10am").children("input").val(localStorage.getItem("10am"));
 $("#11am").children("input").val(localStorage.getItem("11am"));
 $("#12pm").children("input").val(localStorage.getItem("12pm"));
 $("#1pm").children("input").val(localStorage.getItem("1pm"));
