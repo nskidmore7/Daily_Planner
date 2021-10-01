@@ -32,13 +32,13 @@ function updatetime() {
   }
 }
 
-$(".rowBtn").on("click", function() {
+ $(".saveBtn").on("click", function() {
     var timeOfday = $(this).parent().attr("id");
-    var textContent = $("input").val().trim();
+   var textContent = $("input").val().trim();
 
     localStorage.setItem(timeOfday, textContent);
     console.log(timeOfday, textContent);
-});
+ });
 
 $("#9am").children("input").val(localStorage.getItem("9am"));
 $("#10am").children("input").val(localStorage.getItem("10am"));
@@ -48,4 +48,6 @@ $("#1pm").children("input").val(localStorage.getItem("1pm"));
 $("#2pm").children("input").val(localStorage.getItem("2pm"));
 $("#3pm").children("input").val(localStorage.getItem("3pm"));
 $("#4pm").children("input").val(localStorage.getItem("4pm"));
-$("#5pm").children("input").val(localStorage.getItem("5pm"));
+$("#5pm").children("input").val(localStorage.getItem("5pm")); 
+
+
