@@ -18,16 +18,12 @@ function updatetime() {
 
     if (parseInt(timeOfday[i]) > currentTime) {
       $("#" + timeOfday[i]).attr("style", "background-color: green");
-
-
     }
     else if (parseInt(timeOfday[i]) < currentTime) {
       $("#" + timeOfday[i]).attr("style", "background-color: lightgray");
-
     }
     else if (parseInt(timeOfday[i]) == currentTime) {
       $("#" + timeOfday[i]).attr("style", "background-color: red");
-    
     }
   }
 }
