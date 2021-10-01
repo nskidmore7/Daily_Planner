@@ -17,7 +17,7 @@ function updatetime() {
   for(var i = 0; i < timeOfday.length; i++) {
 
     if (parseInt(timeOfday[i]) > currentTime) {
-      $("#" + timeOfday[i]).attr("style", "background-color: red");
+      $("#" + timeOfday[i]).attr("style", "background-color: green");
 
 
     }
@@ -26,7 +26,7 @@ function updatetime() {
 
     }
     else if (parseInt(timeOfday[i]) == currentTime) {
-      $("#" + timeOfday[i]).attr("style", "background-color: green");
+      $("#" + timeOfday[i]).attr("style", "background-color: red");
     
     }
   }
